@@ -491,6 +491,7 @@ margin: 50px auto;
     font-size: 18px; 
   }
 
+
   section.grid-index {
     display: grid;
     grid-template-columns: 1fr; 
@@ -500,6 +501,35 @@ margin: 50px auto;
   footer.footer {
     padding: 10px; 
   }
+}
+
+@media(max-width: 740px){
+  body.pagina {
+    font-size: 14px; 
+  }
+
+  header.header {
+    padding: 10px; 
+  }
+
+  nav.navbar {
+    margin-top: 10px; 
+  }
+
+  main#main-index {
+    padding: 10px; 
+  }
+
+  section.inicio {
+    padding: 20px; 
+  }
+
+  div.hero-pan {
+    padding: 20px; 
+  }
+
+  h2.parrafo-txt {
+    font-size: 18px; 
 }
 
 
@@ -524,7 +554,7 @@ margin: 50px auto;
     margin-bottom: 10px; 
   }
 }
-
+/* 2 */
 @media (min-width: 768px) {
   header.header {
     padding: 20px; 
