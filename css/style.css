@@ -461,6 +461,69 @@ margin: 50px auto;
 
 /*MOBILE LAST*/
 /* 1 */
+/* Estilos generales para pantallas más pequeñas */
+@media (max-width: 992px) {
+  body.pagina {
+    font-size: 14px; /* Tamaño de fuente más pequeño */
+  }
+
+  header.header {
+    padding: 10px; /* Menos espacio en el encabezado */
+  }
+
+  nav.navbar {
+    margin-top: 10px; /* Ajuste de margen superior en la barra de navegación */
+  }
+
+  main#main-index {
+    padding: 10px; /* Ajuste de relleno principal */
+  }
+
+  section.inicio {
+    padding: 20px; /* Ajuste de relleno en la sección de inicio */
+  }
+
+  div.hero-pan {
+    padding: 20px; /* Ajuste de relleno en la sección del héroe */
+  }
+
+  h2.parrafo-txt {
+    font-size: 18px; /* Tamaño de fuente más pequeño para el párrafo */
+  }
+
+  section.grid-index {
+    display: grid;
+    grid-template-columns: 1fr; /* Cambiar a una columna en pantallas más pequeñas */
+    gap: 10px; /* Espacio entre las imágenes */
+  }
+
+  footer.footer {
+    padding: 10px; /* Ajuste de relleno en el pie de página */
+  }
+}
+
+/* Estilos adicionales para dispositivos móviles */
+@media (max-width: 576px) {
+  header.header {
+    text-align: center; /* Centrar el contenido del encabezado */
+  }
+
+  nav.navbar {
+    flex-direction: column; /* Cambiar la dirección de la fila a columna en pantallas más pequeñas */
+  }
+
+  nav.navbar a {
+    margin-bottom: 5px; /* Espacio entre los elementos de navegación */
+  }
+
+  footer.footer {
+    text-align: center; /* Centrar el contenido del pie de página */
+  }
+
+  footer.footer div {
+    margin-bottom: 10px; /* Espacio entre las secciones del pie de página */
+  }
+}
 
 
 
