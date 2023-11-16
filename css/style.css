@@ -464,66 +464,116 @@ margin: 50px auto;
 /* Estilos generales para pantallas más pequeñas */
 @media (max-width: 992px) {
   body.pagina {
-    font-size: 14px; /* Tamaño de fuente más pequeño */
+    font-size: 14px; 
   }
 
   header.header {
-    padding: 10px; /* Menos espacio en el encabezado */
+    padding: 10px; 
   }
 
   nav.navbar {
-    margin-top: 10px; /* Ajuste de margen superior en la barra de navegación */
+    margin-top: 10px; 
   }
 
   main#main-index {
-    padding: 10px; /* Ajuste de relleno principal */
+    padding: 10px; 
   }
 
   section.inicio {
-    padding: 20px; /* Ajuste de relleno en la sección de inicio */
+    padding: 20px; 
   }
 
   div.hero-pan {
-    padding: 20px; /* Ajuste de relleno en la sección del héroe */
+    padding: 20px; 
   }
 
   h2.parrafo-txt {
-    font-size: 18px; /* Tamaño de fuente más pequeño para el párrafo */
+    font-size: 18px; 
   }
 
   section.grid-index {
     display: grid;
-    grid-template-columns: 1fr; /* Cambiar a una columna en pantallas más pequeñas */
-    gap: 10px; /* Espacio entre las imágenes */
+    grid-template-columns: 1fr; 
+    gap: 10px; 
   }
 
   footer.footer {
-    padding: 10px; /* Ajuste de relleno en el pie de página */
+    padding: 10px; 
   }
 }
 
-/* Estilos adicionales para dispositivos móviles */
+
 @media (max-width: 576px) {
   header.header {
-    text-align: center; /* Centrar el contenido del encabezado */
+    text-align: center; 
   }
 
   nav.navbar {
-    flex-direction: column; /* Cambiar la dirección de la fila a columna en pantallas más pequeñas */
+    flex-direction: column; 
   }
 
   nav.navbar a {
-    margin-bottom: 5px; /* Espacio entre los elementos de navegación */
+    margin-bottom: 5px; 
   }
 
   footer.footer {
-    text-align: center; /* Centrar el contenido del pie de página */
+    text-align: center; 
   }
 
   footer.footer div {
-    margin-bottom: 10px; /* Espacio entre las secciones del pie de página */
+    margin-bottom: 10px; 
   }
 }
+
+@media (min-width: 768px) {
+  header.header {
+    padding: 20px; 
+  }
+
+  h1.titulo-1 {
+    font-size: 32px; 
+  }
+
+  h2.titulo-2 {
+    font-size: 24px; 
+  }
+
+  main.grid-cotainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px; 
+  }
+
+  footer.footer {
+    padding: 20px; 
+  }
+}
+
+/* Estilos para dispositivos móviles */
+@media only screen and (max-width: 767px) {
+  header.header {
+    padding: 10px; 
+  }
+
+  h1.titulo-1 {
+    font-size: 24px; 
+  }
+
+  h2.titulo-2 {
+    font-size: 18px; 
+  }
+
+  main.grid-cotainer {
+    display: grid;
+    grid-template-columns: 1fr; 
+    gap: 10px; 
+  }
+
+  footer.footer {
+    padding: 10px; 
+  }
+}
+
 
 
 
