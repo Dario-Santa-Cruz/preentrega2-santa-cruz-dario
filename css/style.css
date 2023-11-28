@@ -189,7 +189,6 @@ h1 {
   padding-bottom: 80px;
   max-width: 1140px;
   margin: auto;
-  text-align: center;
 }
 .main-nosotros {
   background-color: peru;
@@ -556,49 +555,6 @@ margin: 50px auto;
     margin-bottom: 10px; 
   }
 }
-
-@media (max-width: 360px ){
-  body.pagina {
-    font-size: 14px; 
-  }
-
-  header.header {
-    padding: 10px; 
-  }
-
-  nav.navbar {
-    margin-top: 10px; 
-  }
-
-  main#main-index {
-    padding: 10px; 
-  }
-
-  section.inicio {
-    padding: 20px; 
-  }
-
-  div.hero-pan {
-    padding: 20px; 
-  }
-
-  h2.parrafo-txt {
-    font-size: 18px; 
-  }
-
-
-  section.grid-index {
-    display: grid;
-    grid-template-columns: (2, 1fr);
-    gap: 10px;
-    width: 300px;
-    height: 300px;
-  }
-  footer.footer {
-    padding: 10px; 
-  }
-}
-
 /* 2 */
 @media (min-width: 768px) {
   header.header {
@@ -625,7 +581,7 @@ margin: 50px auto;
 }
 
 /* Estilos para dispositivos móviles */
-@media (max-width: 767px) {
+@media  (max-width: 767px) {
   header.header {
     padding: 10px; 
   }
@@ -648,11 +604,22 @@ margin: 50px auto;
     padding: 10px; 
   }
 }
-@media(max-width:360px){
-  .main-nosotros{
-    text-align: center;
+
+/* Promos mobile last */
+@media only screen and (max-width: 600px) {
+  /* Estilos para pantallas más pequeñas (por ejemplo, celulares) */
+  body {
+    font-size: 14px;
   }
 }
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  /* Estilos para tablets */
+  body {
+    font-size: 16px;
+  }
+}
+
 
 
 
